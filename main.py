@@ -22,4 +22,3 @@ def webhook():
             return jsonify({"reply": resposta})
 
     return jsonify({"reply": "Fala, atleta! Aqui é o CoachBot. Manda sua dúvida que eu te ajudo!"})
-
